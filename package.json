@@ -1,8 +1,28 @@
 {
+  "name": "tracker3000-pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrick-roof/tracker3000-pr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrick-roof/tracker3000-pr/issues"
+  },
+  "homepage": "https://github.com/patrick-roof/tracker3000-pr#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "express": "^4.18.2",
     "inquirer": "^8.2.4",
-    "mysql2": "^3.0.1"
+    "mysql2": "^2.1.0"
   }
 }
